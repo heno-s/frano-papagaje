@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+:root {
+    --primary-gradient: linear-gradient(135deg, #4c4d4e, #111316)
+        no-repeat;
+}
+
+body {
+    background: var(--primary-gradient);
+    padding: 20px 30px 5px;
+    min-height: 100vh;
+}
