@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Link from "../components/Link.astro";
 ---
 
-<Layout>
+<Layout isIndex={true}>
     <div class="container">
         <h1>Štefan Fraňo - predaj papagájov</h1>
         <p class="description">
@@ -17,9 +17,9 @@ import Link from "../components/Link.astro";
 
         <div class="links">
             <Link href="parrots" label="Papagáje" />
-            <Link href="contact" label="Kontakt" />
-            <Link href="food" label="Krmivo" />
             <Link href="breedings" label="Odchovy" />
+            <Link href="food" label="Krmivo" />
+            <Link href="contact" label="Kontakt" />
         </div>
     </div>
 </Layout>
@@ -38,6 +38,8 @@ import Link from "../components/Link.astro";
         margin-bottom: 200px;
         text-align: justify;
         max-width: 60ch;
+        font-size: 1.2rem;
+        line-height: 1.5;
     }
     .links {
         display: flex;

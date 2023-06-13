@@ -1,10 +1,12 @@
 ---
+import Link from "../components/Link.astro";
 import "../style.css";
 export interface Props {
     title?: string;
+    isIndex?: boolean;
 }
 
-const { title = "Papagáje" } = Astro.props;
+const { title = "Papagáje", isIndex = false } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -18,6 +20,22 @@ const { title = "Papagáje" } = Astro.props;
         <title>{title}</title>
     </head>
     <body>
+        {
+            !isIndex && (
+                <div class="link">
+                    <Link href="/" label="späť" />
+                </div>
+            )
+        }
         <slot />
+
+        <style>
+            .link {
+                display: flex; /* musí to tu byť, aby Link nemal overflow cez .link */
+                position: fixed;
+                left: 10px;
+                top: 10px;
+            }
+        </style>
     </body>
 </html>
