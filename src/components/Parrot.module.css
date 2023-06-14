@@ -1,0 +1,77 @@
+.parrot {
+    margin-bottom: 40px;
+}
+
+.parrot img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.mutations-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.mutations-title {
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.mutations {
+    margin-top: 8px;
+}
+
+.mutations img {
+    width: 80px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.header {
+    text-align: center;
+}
+
+.name {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: block;
+}
+
+.description {
+    margin-top: 8px;
+}
+
+@media (min-width: 720px) {
+    .header {
+        text-align: start;
+        display: flex;
+        gap: 20px;
+    }
+    .description {
+        max-width: 60ch;
+    }
+    .parrot {
+        margin-bottom: 80px;
+    }
+    .mutations img {
+        width: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .parrot img {
+        width: 140px;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 1.3rem;
+    }
+    .mutations img {
+        width: 160px;
+    }
+}

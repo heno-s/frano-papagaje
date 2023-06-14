@@ -3,6 +3,7 @@ import parrots from "../parrots.js";
 import { useState } from "react";
 import Sidebar from "./Sidebar";
 import Parrot from "./Parrot.jsx";
+import ParrotsStyles from "./Parrots.module.css";
 
 export default function Parrots() {
     const [activeKind, setActiveKind] = useState(null); // if null, show all
@@ -12,14 +13,16 @@ export default function Parrots() {
     }
 
     return (
-        <div className="container">
+        <div className={ParrotsStyles.container}>
             <Sidebar
                 handleOnClick={handleChangeActiveKind}
                 activeKind={activeKind}
             />
             <main>
-                <h1>Chované papagáje</h1>
-                <div className="parrots">
+                <h1 className={ParrotsStyles.title}>
+                    Chované papagáje
+                </h1>
+                <div className={ParrotsStyles.parrots}>
                     {parrots
                         .filter(
                             (parrot) =>

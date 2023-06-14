@@ -3,8 +3,8 @@ import SidebarStyles from "./Sidebar.module.css";
 
 export default function Sidebar({ handleOnClick, activeKind }) {
     return (
-        <div className="sidebar">
-            <div className="kind-buttons">
+        <div className={SidebarStyles.sidebar}>
+            <div className={SidebarStyles.kinds}>
                 {kinds.map((kindName) => (
                     <Button
                         key={kindName}
