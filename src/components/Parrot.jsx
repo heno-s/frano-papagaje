@@ -9,7 +9,7 @@ export default function Parrot({
     return (
         <div className={ParrotStyles.parrot}>
             <div className={ParrotStyles.header}>
-                <img src={image} alt={name} />
+                <img src={image} alt={name} loading="lazy" />
                 <div>
                     <span className={ParrotStyles.name}>{name}</span>
                     <p className={ParrotStyles.description}>
