@@ -3,8 +3,10 @@
 }
 
 .parrot img {
-    width: 100px;
+    width: 120px;
     margin-bottom: 10px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }
 
 .mutations-container {
@@ -54,6 +56,9 @@
     .parrot {
         margin-bottom: 80px;
     }
+    .parrot img {
+        width: 150px;
+    }
     .mutations img {
         width: 100px;
     }
@@ -61,7 +66,7 @@
 
 @media (min-width: 1200px) {
     .parrot img {
-        width: 140px;
+        width: 200px;
     }
 
     .name {
@@ -72,6 +77,6 @@
         font-size: 1.3rem;
     }
     .mutations img {
-        width: 160px;
+        width: 170px;
     }
 }

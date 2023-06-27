@@ -1,14 +1,14 @@
-import arakanga from "./images/ara-arakanga.jpg";
+import arakanga from "./images/ara-arakanga.avif";
 import ararauna from "./images/ara-ararauna.jpg";
 import oratrix from "./images/amazoňan-oratrix.jpg";
-import autumnalis from "./images/amazoňan-autumnalis.jpg";
+import autumnalis from "./images/amazoňan-autumnalis.jpeg";
 import lilacina from "./images/amazoňan lilacina.jpg";
 import modročelý from "./images/amazoňan-modročelý.jpg";
-import zelenolíci from "./images/amazoňan-zelenolíci.jpg";
+import zelenolíci from "./images/amazoňan-zelenolíci.jpeg";
 import vejárový from "./images/amazoňan-vejárový.jpg";
 import veľký from "./images/alexander-veľký.jpg";
-import veľkýŽltý from "./images/mutations/alexander-veľký-žltý.jpg";
-import veľkýModrý from "./images/mutations/alexander-veľký-modrý.jpeg";
+import veľkýŽltý from "./images/mutations/alexander-veľký-žltý.jpeg";
+import veľkýModrý from "./images/mutations/alexander-veľký-modrý.jpg";
 import malý from "./images/alexander-malý.jpeg";
 import malýBiely from "./images/mutations/alexander-malý-biely.jpeg";
 import malýŽltý from "./images/mutations/alexander-malý-žltý.jpg";
@@ -17,10 +17,10 @@ import malýModrý from "./images/mutations/alexander-malý-modrý.jpeg";
 import malýŠedý from "./images/mutations/alexander-malý-šedý.jpg";
 import čínsky from "./images/alexander-čínsky.jpg";
 import šedý from "./images/alexander-šedý.jpg";
-import ružový from "./images/kakadu-ružový.jpg";
+import ružový from "./images/kakadu-ružový.jpeg";
 import ružovýLutino from "./images//mutations/kakadu-ružový-lutino.jpeg";
 import inka from "./images/kakadu-inka.jpg";
-import žako from "./images/papagáj-žako.jpeg";
+import žako from "./images/papagáj-žako.jpg";
 import roratus from "./images/eclectus-roratus.jpg";
 
 const parrots = [
@@ -29,21 +29,21 @@ const parrots = [
         name: "Ara arakanga",
         image: arakanga,
         description:
-            "Ara arakanga alebo ara kanga je pestrofarebne sfarbený vták, patriaci do rodu Ara a k skupine papagájov Ara, ktoré majú svoj pôvod v tropickej oblasti od východného cípu Mexika cez Strednú Ameriku a od severu Južnej Ameriky po Brazíliu",
+            "Ara arakanga alebo ara macao je pestrofarebne sfarbený vták, patriaci do rodu Ara a k skupine papagájov Ara, ktoré majú svoj pôvod v tropickej oblasti od východného cípu Mexika cez Strednú Ameriku a od severu Južnej Ameriky po Brazíliu",
     },
     {
         kind: "ara",
         name: "Ara ararauna",
         image: ararauna,
         description:
-            "Ara ararauna je druh papagája z rodu Ara. Žije v severnej časti Južnej Ameriky. V Trinidade patrí medzi ohrozené druhy.",
+            "Ara ararauna je druh papagája z rodu Ara. Žije v severnej časti Južnej Ameriky.",
     },
     {
         kind: "amazoňan",
         name: "amazoňan oratrix",
         image: oratrix,
         description:
-            "Amazoňan oratrix, známy aj ako papagáj žltohlavý alebo dvojitý amazoňan žltohlavý, je ohrozený amazonský papagáj z Mexika a severnej časti Strednej Ameriky.",
+            "Amazoňan oratrix, známy aj ako papagáj žltohlavý alebo amazoňan žltohlavý veľký, je ohrozený amazonský papagáj z Mexika a severnej časti Strednej Ameriky.",
     },
     {
         kind: "amazoňan",
@@ -57,7 +57,7 @@ const parrots = [
         name: "amazoňan lilacina",
         image: lilacina,
         description:
-            "Amazoňan lilacina alebo ekvádorská amazonka červenolíca je amazonský papagáj pochádzajúci z Ekvádoru v Južnej Amerike.",
+            "Amazoňan lilacina alebo ekvádorská je amazonský papagáj pochádzajúci z Ekvádoru v Južnej Amerike.",
     },
     {
         kind: "amazoňan",
@@ -96,7 +96,7 @@ const parrots = [
         name: "alexander malý",
         image: malý,
         description:
-            "Alexander malý, je pestrý vták z čeľade psicovité. Hniezdi v savanách Afriky a južnej Ázie. Vyskytuje sa aj v Indii, na Srí Lanke a bol introdukovaný na Maurícius, Blízky východ, do Singapuru, Japonska, na Seychely, do Spojených štátov a na Nový Zéland [3] Jeho prirodzeným biotopom sú listnaté oblasti a kultivovaná krajina.",
+            "Alexander malý, je pestrý vták z čeľade psicovité. Hniezdi v savanách Afriky a južnej Ázie. Vyskytuje sa aj v Indii, na Srí Lanke a bol introdukovaný na Maurícius, Blízky východ, do Singapuru, Japonska, na Seychely, do Spojených štátov a na Nový Zéland Jeho prirodzeným biotopom sú listnaté oblasti a kultivovaná krajina.",
         mutations: [
             { image: malýBiely, name: "biely" },
             { image: malýŽltý, name: "žltý" },
