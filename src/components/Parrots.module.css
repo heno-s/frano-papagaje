@@ -37,8 +37,8 @@ dialog::backdrop {
 }
 
 dialog img {
-    width: 40%;
-    min-width: 250px;
+    width: 85%;
+    max-width: 600px;
     aspect-ratio: 3/2;
     object-fit: contain;
 }
