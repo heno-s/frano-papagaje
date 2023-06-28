@@ -7,6 +7,11 @@
     margin-bottom: 10px;
     aspect-ratio: 3/2;
     object-fit: contain;
+    cursor: pointer;
+}
+
+.parrot img:hover {
+    scale: 1.02;
 }
 
 .mutations-container {

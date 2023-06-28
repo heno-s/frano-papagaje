@@ -5,11 +5,17 @@ export default function Parrot({
     name,
     description,
     mutations,
+    handleImageClick,
 }) {
     return (
         <div className={ParrotStyles.parrot}>
             <div className={ParrotStyles.header}>
-                <img src={image} alt={name} loading="lazy" />
+                <img
+                    src={image}
+                    alt={name}
+                    loading="lazy"
+                    onClick={() => handleImageClick(image)}
+                />
                 <div>
                     <span className={ParrotStyles.name}>{name}</span>
                     <p className={ParrotStyles.description}>
@@ -28,6 +34,10 @@ export default function Parrot({
                                 src={mutation.image}
                                 alt={mutation.name}
                                 title={mutation.name}
+                                onClick={() =>
+                                    handleImageClick(mutation.image)
+                                }
+                                key={mutation.image}
                             />
                         ))}
                     </div>
