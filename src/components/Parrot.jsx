@@ -13,7 +13,6 @@ export default function Parrot({
                 <img
                     src={image}
                     alt={name}
-                    loading="lazy"
                     onClick={() => handleImageClick(image)}
                 />
                 <div>
