@@ -1,12 +1,13 @@
 .parrot {
     margin-bottom: 40px;
+    --primary-image-width: 120px;
 }
 
 .parrot img {
-    width: 120px;
+    width: var(--primary-image-width);
     margin-bottom: 10px;
     aspect-ratio: 3/2;
-    object-fit: contain;
+    object-fit: fill;
     cursor: pointer;
 }
 
@@ -29,7 +30,7 @@
 }
 
 .mutations img {
-    width: 80px;
+    width: calc(var(--primary-image-width) / 4 * 3);
     aspect-ratio: 3/2;
     object-fit: contain;
 }
@@ -50,6 +51,10 @@
 }
 
 @media (min-width: 720px) {
+    .parrot {
+        --primary-image-width: 150px;
+        margin-bottom: 80px;
+    }
     .header {
         text-align: start;
         display: flex;
@@ -58,20 +63,11 @@
     .description {
         max-width: 60ch;
     }
-    .parrot {
-        margin-bottom: 80px;
-    }
-    .parrot img {
-        width: 150px;
-    }
-    .mutations img {
-        width: 100px;
-    }
 }
 
 @media (min-width: 1200px) {
-    .parrot img {
-        width: 200px;
+    .parrot {
+        --primary-image-width: 200px;
     }
 
     .name {
@@ -80,8 +76,5 @@
 
     .description {
         font-size: 1.3rem;
-    }
-    .mutations img {
-        width: 170px;
     }
 }
