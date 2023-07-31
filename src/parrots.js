@@ -71,7 +71,7 @@ const parrots = [
         name: "amazoňan zelenolíci",
         image: zelenolíci,
         description:
-            "Amazoňan zelenlíci, známy aj ako amazoňan červenokrký, amazoňan zelený alebo mexický papagáj červenohlavý, je ohrozený papagáj amazoňan pochádzajúci zo severovýchodného Mexika a pravdepodobne z južného Texasu v Spojených štátoch.",
+            "Amazoňan zelenlíci, známy aj ako amazoňan zelený alebo mexický papagáj červenohlavý, je ohrozený papagáj amazoňan pochádzajúci zo severovýchodného Mexika a pravdepodobne z južného Texasu v Spojených štátoch.",
     },
     {
         kind: "amazoňan",
@@ -114,10 +114,17 @@ const parrots = [
     },
     {
         kind: "alexander",
-        name: "alexander šedý",
+        name: "alexander šedý - holubí",
         image: šedý,
         description:
             "Stredne veľký druh alexandra, ktorý sa od väčšiny ostatných zástupcov tohto rodu papagájov líši tým, že nie je prevažne zelený. Žije v horských oblastiach v nadmorskej výške od 450 do 1 000 m n. m. vo vlhkých lesoch.",
+    },
+    {
+        kind: "kakadu",
+        name: "kakadu inka",
+        image: inka,
+        description:
+            "Patrí medzi stredne veľké druhy kakaduov. Zvrchu je čisto biely, ale spodná strana tela a tváre je svetloružová, s červeným a žltým sfarbením na chvoste. Obýva suché a polosuché biotopy vo vnútrozemí austrálskeho kontinentu.",
     },
     {
         kind: "kakadu",
@@ -126,13 +133,6 @@ const parrots = [
         description:
             "Kakadu ružový patrí medzi najrozšírenejšie austrálske papagáje. Kakadu ružový vo veľkých, až niekoľkotisícových kŕdľoch migruje po savanových lesoch, poliach a otvorenej krajine celom vnútrozemí štátov austrálskeho kontinentu až do nadmorských výšok 1 250 m.",
         mutations: [{ image: ružovýLutino, name: "lutino" }],
-    },
-    {
-        kind: "kakadu",
-        name: "kakadu inka",
-        image: inka,
-        description:
-            "Patrí medzi stredne veľké druhy kakaduov. Zvrchu je čisto biely, ale spodná strana tela a tváre je svetloružová, s červeným a žltým sfarbením na chvoste. Obýva suché a polosuché biotopy vo vnútrozemí austrálskeho kontinentu.",
     },
     {
         kind: "ostatné",
