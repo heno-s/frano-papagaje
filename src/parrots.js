@@ -1,5 +1,6 @@
-import arakanga from "./images/ara-arakanga.avif";
+import arakanga from "./images/ara-arakanga.jpg";
 import ararauna from "./images/ara-ararauna.jpg";
+import auroplliata from "./images/amazoňan-auroplliata.jpg";
 import oratrix from "./images/amazoňan-oratrix.jpg";
 import autumnalis from "./images/amazoňan-autumnalis.jpeg";
 import lilacina from "./images/amazoňan lilacina.jpg";
@@ -8,13 +9,14 @@ import zelenolíci from "./images/amazoňan-zelenolíci.jpeg";
 import vejárový from "./images/amazoňan-vejárový.jpg";
 import veľký from "./images/alexander-veľký.jpg";
 import veľkýŽltý from "./images/mutations/alexander-veľký-žltý.jpeg";
-import veľkýModrý from "./images/mutations/alexander-veľký-modrý.jpg";
+import veľkýModrý from "./images/mutations/alexander-veľký-modrý.jpeg";
 import malý from "./images/alexander-malý.jpg";
 import malýBiely from "./images/mutations/alexander-malý-biely.jpeg";
 import malýŽltý from "./images/mutations/alexander-malý-žltý.jpg";
 import malýVioleta from "./images/mutations/alexander-malý-violeta.jpg";
 import malýModrý from "./images/mutations/alexander-malý-modrý.jpg";
 import malýŠedý from "./images/mutations/alexander-malý-šedý.jpg";
+import malýŠedýHlavaChvost from "./images/mutations/alexander-malý-šedý-hlava-chvost.jpg";
 import čínsky from "./images/alexander-čínsky.jpg";
 import šedý from "./images/alexander-šedý.jpg";
 import ružový from "./images/kakadu-ružový.jpeg";
@@ -37,6 +39,13 @@ const parrots = [
         image: ararauna,
         description:
             "Ara ararauna je druh papagája z rodu Ara. Žije v severnej časti Južnej Ameriky.",
+    },
+    {
+        kind: "amazoňan",
+        name: "amazoňan auroplliata",
+        image: auroplliata,
+        description:
+            "Amazoňan auroplliata je rozšírený amazonský papagáj, ktorý sa niekedy považuje za poddruh amazoňana žltohlavého (Amazona ochrocephala). Obýva tichomorské pobrežie južného Mexika a Strednej Ameriky.",
     },
     {
         kind: "amazoňan",
@@ -103,6 +112,7 @@ const parrots = [
             { image: malýVioleta, name: "violeta" },
             { image: malýModrý, name: "modrý" },
             { image: malýŠedý, name: "šedý" },
+            { image: malýŠedýHlavaChvost, name: "šedý hlava chvost" },
         ],
     },
     {
