@@ -1,6 +1,7 @@
 .parrot {
     margin-bottom: 40px;
     --primary-image-width: 120px;
+    width: 90%;
     max-width: 1000px;
 }
 
@@ -73,6 +74,7 @@
 @media (min-width: 1200px) {
     .parrot {
         --primary-image-width: 200px;
+        width: 80%;
     }
 
     .name {
