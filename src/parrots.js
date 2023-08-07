@@ -17,6 +17,8 @@ import malýVioleta from "./images/mutations/alexander-malý-violeta.jpg";
 import malýModrý from "./images/mutations/alexander-malý-modrý.jpg";
 import malýŠedý from "./images/mutations/alexander-malý-šedý.jpg";
 import malýŠedýHlavaChvost from "./images/mutations/alexander-malý-šedý-hlava-chvost.jpg";
+import malýModrýHlavaChvost from "./images/mutations/alexander-malý-modrý-hlava-chvost.jpg";
+import malýVioletaHlavaChvost from "./images/mutations/alexander-malý-violeta-hlava-chvost.jpg";
 import čínsky from "./images/alexander-čínsky.jpg";
 import šedý from "./images/alexander-šedý.jpg";
 import ružový from "./images/kakadu-ružový.jpeg";
@@ -113,6 +115,14 @@ const parrots = [
             { image: malýModrý, name: "modrý" },
             { image: malýŠedý, name: "šedý" },
             { image: malýŠedýHlavaChvost, name: "šedý hlava chvost" },
+            {
+                image: malýModrýHlavaChvost,
+                name: "modrý hlava chvost",
+            },
+            {
+                image: malýVioletaHlavaChvost,
+                name: "violeta hlava chvost",
+            },
         ],
     },
     {

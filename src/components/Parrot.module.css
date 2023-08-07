@@ -1,6 +1,7 @@
 .parrot {
     margin-bottom: 40px;
     --primary-image-width: 120px;
+    max-width: 1000px;
 }
 
 .parrot img {
@@ -27,6 +28,10 @@
 
 .mutations {
     margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
 }
 
 .mutations img {
