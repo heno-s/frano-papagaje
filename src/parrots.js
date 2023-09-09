@@ -24,8 +24,13 @@ import šedý from "./images/alexander-šedý.jpg";
 import ružový from "./images/kakadu-ružový.jpeg";
 import ružovýLutino from "./images//mutations/kakadu-ružový-lutino.jpg";
 import inka from "./images/kakadu-inka.jpg";
-import žako from "./images/papagáj-žako.jpg";
 import roratus from "./images/eclectus-roratus.jpg";
+import žako from "./images/papagáj-žako.jpg";
+import červenokrídly from "./images/papagáj-červenokrídly.jpg";
+import červenokrídlyŽltý from "./images/mutations/papagáj-červenokrídly-žltý.jpeg";
+import kráľovský from "./images/papagáj-kráľovský.jpeg";
+import kráľovskýŽltý from "./images/mutations/papagáj-kráľovský-žltý.jpg";
+import perlata from "./images/pyrrhura-perlata.jpg";
 
 const parrots = [
     {
@@ -167,6 +172,29 @@ const parrots = [
         image: roratus,
         description:
             "Eclectus roratus je druh papagája, ktorého areál sa rozprestiera od Sumby cez Novú Guineu a polostrov Yorkist až po Šalamúnove ostrovy. Je to jediný žijúci druh rodu Eclectus",
+    },
+    {
+        kind: "ostatné",
+        name: "papagáj červenokrídly",
+        image: červenokrídly,
+        description:
+            "Papagáj červenokrídly je papagáj pôvodom z Austrálie a Novej Guiney. Vyskytuje sa na lúkach, v savanách, na poľnohospodárskej pôde a v lesoch.",
+        mutations: [{ image: červenokrídlyŽltý, name: "žltý" }],
+    },
+    {
+        kind: "ostatné",
+        name: "papagáj kráľovský",
+        image: kráľovský,
+        description:
+            "Papagáj kráľovský je druh papagája endemického vo východnej Austrálii. Vyskytuje sa vo vlhkých a husto zalesnených vrchovinových oblastiach východnej časti kontinentu vrátane eukalyptových lesov v subtropických a miernych dažďových lesoch a v ich bezprostrednom susedstve.",
+        mutations: [{ image: kráľovskýŽltý, name: "žltý" }],
+    },
+    {
+        kind: "ostatné",
+        name: "pyrrhura perlata",
+        image: perlata,
+        description:
+            "Pyrrhura perlata, známy ako papagáj karmínový, je druh vtáka z podčeľade Arinae čeľade Psittacidae, afrických a novosvetských papagájov. Vyskytuje sa v Bolívii a Brazílii.",
     },
 ];
 
