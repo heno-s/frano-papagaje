@@ -29,7 +29,7 @@ import žako from "./images/papagáj-žako.jpg";
 import červenokrídly from "./images/papagáj-červenokrídly.jpg";
 import červenokrídlyŽltý from "./images/mutations/papagáj-červenokrídly-žltý.jpeg";
 import kráľovský from "./images/papagáj-kráľovský.jpeg";
-import kráľovskýŽltý from "./images/mutations/papagáj-kráľovský-žltý.jpg";
+import kráľovskýŽltý from "./images/mutations/papagáj-kráľovský-žltý.jpeg";
 import perlata from "./images/pyrrhura-perlata.jpg";
 
 const parrots = [
